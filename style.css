@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+h1.pink-highlight {
+    font-size: 40px;
+    font-weight: bold;
+    color: #EC507E;
+    margin-top: 0;
+}
+
+p {
+    color: dimgray;
+}
+
+.half-width > p {
+    margin-bottom: 2.5em;
+}
+
+.link-button {
+    text-decoration: none;
+    background: linear-gradient(45deg, #EC4F91, #EC4B75);
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.half-width {
+    width: 38%;
+    padding-left: 2%;
+    margin-left: 5%;
+}
+.half-width img {
+    width: 100%;
+    display: block;
+}
+
+.float-left {
+    float: left;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.float-right {
+    float: right;
+    padding-right: 5%;
+    position: absolute; 
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+section {
+    height: 100vh;
+    padding-bottom: 120px;
+}
+.header {
+    position: relative;
+    background: url("images/header-bg.png") no-repeat left top ;
+    background-size: cover;
+}
+/*Biography*/
+.biography {
+    position: relative;
+    background: url("images/biography-bg.png") no-repeat  ;
+    background-size: cover;
+}
+.bio-left {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+}
+.bio-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    float: right;
+}
+/*Latest-Work*/
+.center-text {
+    text-align: center;
+    font-weight: 500;
+    padding: 60px 0px;
+}
+.work-gallery {
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.work-gallery img {
+    width: 30%;
+    margin-right: 25px;
+    display: inline-block;
+}
+.latest-work {
+    height: 70vh;
+    background: url("images/latest-work-bg.png") no-repeat center center;
+}
+/*Footer section*/
+.footer {
+    text-align: center;  
+    background: url("images/footer-bg.png") no-repeat left;
+    background-size: cover;
+    padding: 30px 0px 0px 0px;
+}
+.footer-text {
+    font-weight: 500;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.title {
+    padding: 30px 0px 25px 0px;
+}
+.title h3{
+   color: #3D4043;
+   margin-bottom: 7px;
+   font-weight: 500;
+}
+.title p{
+   color: dimgray;
+   margin: 0;
+   font-size: 14px;
+}
+.dummy-text {
+    width: 450px;
+    word-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 500;
+    color: #111;
+    padding-bottom: 60px;
+}
+.footer-pink-highlight {
+    background-color: #EC4F8F;
+    color: #fff;
+    display: inline-block;
+    padding: 20px 120px;
+    border-radius: 10px;
+    
+}
+/*Copyright text Area*/
+.copyright-text {
+    padding-top: 90px;
+    padding-bottom: 15px;
+}
